@@ -264,3 +264,24 @@ addSum(3); // undefined
 
 */
 
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+   sum = sum + 5
+}
+
+// Only change code above this line
+
+addThree(); // undefiend
+addFive(); // undefiend
+
+console.log(sum) // 8
+
+
+// ------------ 
